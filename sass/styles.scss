@@ -732,7 +732,7 @@ Embed video
 #video-content {
   width: 100%;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 200px;
   position: relative;
   background: rgba(17, 17, 17, 0.5);
   text-align: center;
@@ -822,7 +822,7 @@ RSVP form
         left: 30px;
         transform: translateY(-50%);
       }
-      i.fa-user, i.fa-users, i.fa-envelope, .fa-key {
+      i.fa-user, i.fa-users, i.fa-envelope, .fa-key, i.fa-cutlery {
         font-size: 14px;
         position: absolute;
         top: 50%;
