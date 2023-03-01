@@ -239,10 +239,10 @@ $(document).ready(function () {
 });
 
 /********************** Extras **********************/
-52.20043728262066, 0.1165948118584858
+// 52.20043728262066, 0.1165948118584858
 // Google map
 function initMap() {
-    var location = {lat: 52.20043728262066, lng: 0.1165948118584858};
+    var location = {lat: 52.200437, lng: 0.116594};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
