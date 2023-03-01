@@ -1,19 +1,23 @@
 // Colours partial
 
 // Text colours
-$txt-primary: rgba(28, 54, 83, 0.6);
+// $txt-primary: rgba(28, 54, 83, 0.6);
+$txt-primary: rgba(0, 0, 0, 1);
 // body font
 $txt-secondary: #3D4351;
 // heading font
 $txt-light: #fff;
 // header/hero
 $txt-accent: #ACB1B4;
-$form-placeholder: #BCC1C3;
+// $form-placeholder: #BCC1C3;
+$form-placeholder: #727272;
 // form placeholder text
 // Global colours
-$accent-color: #e8ca6f;
+// $accent-color: #e8ca6f;
+$accent-color: #af9852;
 // global accent colour
-$accent-color-hover: #d3b56a;
+// $accent-color-hover: #d3b56a;
+$accent-color-hover: #9e874d;
 // global accent colour hover
 $white-color: #fff;
 $black-color: #000;
@@ -28,5 +32,6 @@ $to-top-bg: #495061;
 $footer-primary: #3D4351;
 $footer-secondary: #373D4A;
 // Keylines
-$keyline-color: #E6E9EA;
+// $keyline-color: #E6E9EA;
+$keyline-color: #828282;
 $footer-keyline-color: #4E566C;

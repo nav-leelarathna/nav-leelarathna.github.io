@@ -252,7 +252,8 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  // background: url('../img/hero-min.jpg') center center;
+  background: url('../img/eng_pics/_DSF5248.jpg') 100% 25%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -318,7 +319,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 60px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
