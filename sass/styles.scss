@@ -247,13 +247,24 @@ Navigation
   transition: all 300ms ease-in-out;
 }
 
+.galle {
+  min-height: 300;
+  // background: url('../img/hero-min.jpg') center center;
+  background: url('../img/galle/galle2.jpg') 100% 25%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
 /* ==========================================================================
 Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
   // background: url('../img/hero-min.jpg') center center;
-  background: url('../img/eng_pics/_DSF5248.jpg') 100% 25%;
+  background: url('../img/eng_pics/_DSF5911.jpg') 100% 25%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -294,7 +305,8 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  // background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(133, 176, 154, .88);
   z-index: 999;
   width: 100%;
 }
@@ -342,11 +354,14 @@ header {
     }
   }
   ul.member-actions {
+    margin: 0 0 0 75px;
+    padding: 0;
     li {
       display: inline;
 
       a {
         color: $txt-light;
+        padding-right: 25px;
 
         &:hover {
           color: $accent-color;
